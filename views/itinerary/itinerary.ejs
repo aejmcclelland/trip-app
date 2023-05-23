@@ -1,0 +1,31 @@
+<% layout('/layouts/boilerplate')%>
+
+    <div class="container">
+        <h1>Your Itinerary</h1>
+        <div>
+            <p>Create your itinerary from the attractions provided</p>
+        </div>
+        <div class="mb-3">
+            <% attractions.forEach(attraction=> { %>
+                <div class="attraction">
+                    <div class="attraction-content">
+                    <h5><%= attraction.attraction_ids[0].place %></h5>
+                    <p>Opening time: <%= attraction.attraction_ids[0].opening_time%></p>
+                    <p>Closing time: <%= attraction.attraction_ids[0].closing_time%></p>
+                    <p>Recommended Visit Duration: <%= attraction.attraction_ids[0].visit_duration %> mins</p>
+                    </div>
+                    <a href="#" class="delete-link" data-attraction-id="<%= attraction._id %>">
+                        <i class="fa-solid fa-trash-can"></i>
+                      </a>
+                </div>
+                <% }) %>
+        </div>
+
+    </div>
+
+    <script type='text/javascript'>
+        const attraction = <%- JSON.stringify(attractions) %>
+        console.log('Attractions:', attraction)
+    </script>
+    <script src="/javascripts/deleteAttraction.js"></script>
+  

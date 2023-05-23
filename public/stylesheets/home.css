@@ -1,0 +1,11 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.submit-time p{
+    color: lightskyblue;
+    font-size: large;
+}
+#content {
+    padding-top: 40px; /* Adjust the padding value as needed */
+  }

@@ -1,0 +1,1143 @@
+[{
+  "_id": {
+    "$oid": "6437e897c48f26b203c925b1"
+  },
+  "address": "2 Queens Quay",
+  "adult_ticket": 950,
+  "category": "Attraction",
+  "child_ticket": 750,
+  "city_id": "643861cdc48f26b203c925ed",
+  "closing_time": 1800,
+  "description": "From top to bottom, W5 has been completely transformed. Two reimagined exhibition floors will excite and inspire, with exhibits and experiences covering everything from climate change and nature to film and TV production, optical illusions, built engineering, medical science and much, much more. ",
+  "family_ticket": 3300,
+  "geometry": {
+    "coordinates": [
+      -5.915075230018775,
+      54.60413559772002
+    ],
+    "type": "Point"
+  },
+  "imgUrl": "https://res.cloudinary.com/dqeszgo28/image/upload/v1681224711/w5_zfboxq.jpg",
+  "last_entry": 1600,
+  "opening_time": 1000,
+  "place": "W5",
+  "post_code": "BT3 9QQ",
+  "restaurant": "cafe",
+  "visit_duration": 150
+},{
+  "_id": {
+    "$oid": "6437e897c48f26b203c925b6"
+  },
+  "address": "Donegall Square",
+  "adult_ticket": 0,
+  "category": "Heritage",
+  "child_ticket": 0,
+  "city_id": "643861cdc48f26b203c925ed",
+  "closing_time": 1700,
+  "description": "Belfast city Hall is Belfast city Council's civic building. It is in Donegall Square, in the heart of Belfast city centre. It first opened its doors on 1 August 1906. ",
+  "family_ticket": 0,
+  "geometry": {
+    "coordinates": [
+      -5.930095930018953,
+      54.59666080446857
+    ],
+    "type": "Point"
+  },
+  "imgUrl": "https://res.cloudinary.com/dqeszgo28/image/upload/v1681224710/belfast_city_hall_omzop8.jpg",
+  "last_entry": 1600,
+  "opening_time": 1000,
+  "place": "City Hall",
+  "post_code": "BT1 5GS",
+  "restaurant": "cafe",
+  "visit_duration": 60
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925bd"
+  },
+  "place": "Saatchi Gallery",
+  "category": "Art Gallery",
+  "description": "Up-and-coming and established contemporary art exhibited in 19th-century Duke of York headquarters.",
+  "address": "Duke of York's HQ, King's Rd",
+  "post_code": "SW3 4RY",
+  "opening_time": 1000,
+  "closing_time": 1800,
+  "last_entry": 1730,
+  "family_ticket": 5500,
+  "adult_ticket": 2500,
+  "child_ticket": 10,
+  "visit_duration": 120,
+  "restaurant": "café",
+  "imgUrl": "../img/saatchiGallery.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.158544842,
+      51.49216682
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925cb"
+  },
+  "place": "London Zoo",
+  "category": "Zoo and Wildlife",
+  "description": "Opened in 1828 by the Zoological Society of London, ZSL London Zoo is the world's oldest scientific zoo and the brainchild of Sir Thomas Stamford Raffles",
+  "address": "Regent's Park",
+  "post_code": "NW1 4RY",
+  "opening_time": 1000,
+  "closing_time": 1800,
+  "last_entry": 1700,
+  "family_ticket": 0,
+  "adult_ticket": 3300,
+  "child_ticket": 2145,
+  "visit_duration": 240,
+  "restaurant": "café",
+  "imgUrl": "../img/londonzoo.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.1534,
+      51.5353
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925c4"
+  },
+  "place": "Westminster Abbey",
+  "category": "Heritage",
+  "description": "Westminster Abbey, London church that is the site of coronations and other ceremonies of national significance",
+  "address": "20 Deans Yd",
+  "post_code": "SW1P 3PA",
+  "opening_time": 930,
+  "closing_time": 1330,
+  "last_entry": 1330,
+  "family_ticket": 0,
+  "adult_ticket": 2700,
+  "child_ticket": 1200,
+  "visit_duration": 60,
+  "restaurant": "café",
+  "imgUrl": "../img/westiminster.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.12718,
+      51.49942
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925c5"
+  },
+  "place": "Victoria And Albert Museum",
+  "category": "Museum",
+  "description": "The V&A is a treasure trove of objects celebrating many forms of craftsmanship. It also plays host to a stellar lineup of temporary exhibitions, including blockbuster shows on fashion designers and cultural trends.",
+  "address": "Cromwell Road",
+  "post_code": "SW7 2RL",
+  "opening_time": 1000,
+  "closing_time": 1745,
+  "last_entry": 1730,
+  "family_ticket": 0,
+  "adult_ticket": 0,
+  "child_ticket": 0,
+  "visit_duration": 120,
+  "restaurant": "café",
+  "imgUrl": "../img/v&a.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.17218,
+      51.49664
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925bb"
+  },
+  "place": "The London Eye",
+  "category": "Attraction",
+  "description": "At 135m, The London Eye is the world's largest cantilevered observation wheel.",
+  "address": "Riverside Building",
+  "post_code": "SE1 7PB",
+  "opening_time": 1100,
+  "closing_time": 1800,
+  "last_entry": 1730,
+  "family_ticket": 0,
+  "adult_ticket": 3200,
+  "child_ticket": 2950,
+  "visit_duration": 30,
+  "restaurant": "not available",
+  "imgUrl": "../img/londoneye.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.119537,
+      51.50325
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925c0"
+  },
+  "place": "Science Museum",
+  "category": "Museum",
+  "description": "The Science Museum is the place to go for an educational day out that’s so much fun that kids won’t realise how much they’ve learnt. With captivating interactive galleries, exhibitions, simulators and even an IMAX 3D Theatre.",
+  "address": "Exhibition Road",
+  "post_code": "SW7 2DD",
+  "opening_time": 1000,
+  "closing_time": 1800,
+  "last_entry": 1715,
+  "family_ticket": 0,
+  "adult_ticket": 0,
+  "child_ticket": 0,
+  "visit_duration": 180,
+  "restaurant": "café",
+  "imgUrl": "../img/sciencemus.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.17445,
+      51.49758
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925cd"
+  },
+  "place": "Tower Bridge",
+  "category": "Monument",
+  "description": "From the high-level Walkways, take in stunning panoramic views and experience the thrill of seeing London life through the Glass Floor.",
+  "address": "Tower Bridge, London",
+  "post_code": "SE1 2LY",
+  "opening_time": 930,
+  "closing_time": 1800,
+  "last_entry": 1700,
+  "family_ticket": 0,
+  "adult_ticket": 1140,
+  "child_ticket": 570,
+  "visit_duration": 60,
+  "restaurant": "not available",
+  "imgUrl": "../img/towerbridge02.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.075356,
+      51.505456
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "645947dfad26ec3af2ea56d6"
+  },
+  "address": "Place Charles de Gaulle 75008",
+  "adult_ticket": 1300,
+  "category": "Monument ",
+  "child_ticket": 0,
+  "closing_time": 2230,
+  "description": "The Arc de Triomphe de l'Etoile stands at the western end of the Champs-Elysees. It was built between 1806 and 1836.",
+  "geometry": {
+    "coordinates": [
+      2.294728654978149,
+      48.87472594354536
+    ],
+    "type": "Point"
+  },
+  "imgUrl": "https://res.cloudinary.com/dqeszgo28/image/upload/v1683572092/ArcdeTriomphe_o9bbk9.jpg",
+  "last_entry": 2145,
+  "opening_time": 1000,
+  "place": "Arc de Triomphe",
+  "city_id": "643861cdc48f26b203c925ef"
+},{
+  "_id": {
+    "$oid": "6437e897c48f26b203c925b5"
+  },
+  "address": "Donegall Street",
+  "adult_ticket": 0,
+  "category": "Heritage",
+  "child_ticket": 0,
+  "city_id": "643861cdc48f26b203c925ed",
+  "closing_time": 1600,
+  "description": "Belfast Cathedral, known locally as St Anne's, is a Cathedral of the Church of Ireland, part of the Anglican Communion.",
+  "family_ticket": 0,
+  "geometry": {
+    "coordinates": [
+      -5.928535431460033,
+      54.60298412876268
+    ],
+    "type": "Point"
+  },
+  "imgUrl": "https://res.cloudinary.com/dqeszgo28/image/upload/v1681224710/st_annes_cathedral_o2uolp.jpg",
+  "last_entry": 1530,
+  "opening_time": 1030,
+  "place": "St Anne's Cathedral",
+  "post_code": "BT1 2HB",
+  "restaurant": "not available",
+  "visit_duration": 60
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925cf"
+  },
+  "place": "Hamleys",
+  "category": "Shop",
+  "description": "World-renowned, multistorey toy shop with events, demonstrations and elaborate displays.",
+  "address": "188-196 Regent Street",
+  "post_code": "W1B 5BT",
+  "opening_time": 1000,
+  "closing_time": 2000,
+  "last_entry": 2000,
+  "family_ticket": 0,
+  "adult_ticket": 0,
+  "child_ticket": 0,
+  "visit_duration": 90,
+  "restaurant": "café",
+  "imgUrl": "../img/hamleys.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.140126602,
+      51.51340163
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925d5"
+  },
+  "place": "View from The Shard",
+  "category": "Attraction",
+  "description": "Located 800ft above the ground, The View from The Shard is the highest viewing platform in London and is the only place to see the entire city all at once. The viewing galleries and the open-air Skydeck provide spectacular views of London and beyond.",
+  "address": "Joiner St",
+  "post_code": "SE1 9QU",
+  "opening_time": 1100,
+  "closing_time": 1800,
+  "last_entry": 1700,
+  "family_ticket": 0,
+  "adult_ticket": 2800,
+  "child_ticket": 2800,
+  "visit_duration": 60,
+  "restaurant": "not available",
+  "imgUrl": "../img/shard.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.08622,
+      51.50459
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925b8"
+  },
+  "place": "HMS Belfast",
+  "category": "Museum",
+  "description": "There’s so much to see and do on board HMS Belfast. Find your Sea Legs with our wide range of family activities, solve nautical puzzles, discover stories from the people and animals who lived on board, and even learn to steer the ship!",
+  "address": "The Queen's Walk",
+  "post_code": "SE1 2JH",
+  "opening_time": 1000,
+  "closing_time": 1800,
+  "last_entry": 1700,
+  "family_ticket": 0,
+  "adult_ticket": 2300,
+  "child_ticket": 2300,
+  "visit_duration": 180,
+  "restaurant": "café",
+  "imgUrl": "../img/hmsbelfast.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.08136,
+      51.50608
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925bc"
+  },
+  "place": "Sky Garden",
+  "category": "Attraction",
+  "description": "Known as the walkie talkie due to its unique shape, this skyscraper features a top-floor restaurant.",
+  "address": "1, Sky Garden Walk",
+  "post_code": "EC3M 8AF",
+  "opening_time": 1000,
+  "closing_time": 1800,
+  "last_entry": 1800,
+  "family_ticket": 0,
+  "adult_ticket": 0,
+  "child_ticket": 0,
+  "visit_duration": 120,
+  "restaurant": "café",
+  "imgUrl": "../img/skyGarden.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.083420555,
+      51.51163615
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925c2"
+  },
+  "place": "London Aquarium",
+  "category": "Zoo and Wildlife",
+  "description": "SEA LIFE London Aquarium is an aquarium that holds one of Europe's biggest collections of global marine life! It is home to thousands of sea creatures including Green Sea Turtles, Sharks and Gentoo Penguins.",
+  "address": "Westminster Bridge Road",
+  "post_code": "SE1 7PB",
+  "opening_time": 1000,
+  "closing_time": 1600,
+  "last_entry": 1500,
+  "family_ticket": 0,
+  "adult_ticket": 2900,
+  "child_ticket": 2900,
+  "visit_duration": 180,
+  "restaurant": "café",
+  "imgUrl": "../img/accelerator.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.11945,
+      51.50172
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "645947dfad26ec3af2ea56db"
+  },
+  "address": "Place d'Armes 78000 ",
+  "adult_ticket": 2850,
+  "category": "Museum",
+  "child_ticket": 1000,
+  "closing_time": 1830,
+  "description": "The Palace of Versailles is a former royal residence built by King Louis XIV. ",
+  "geometry": {
+    "coordinates": [
+      2.1213321237416545,
+      48.80498102014616
+    ],
+    "type": "Point"
+  },
+  "imgUrl": "https://res.cloudinary.com/dqeszgo28/image/upload/v1683572091/Palace_of_Versailles_zirgmr.jpg",
+  "last_entry": 1800,
+  "opening_time": 900,
+  "place": "Palace of Versailles ",
+  "restaurant": "Restaurant and Cafe",
+  "visit_duration": 3600,
+  "city_id": "643861cdc48f26b203c925ef"
+},{
+  "_id": {
+    "$oid": "6437e897c48f26b203c925b2"
+  },
+  "address": "Stranmillis Road",
+  "adult_ticket": 0,
+  "category": "Museum",
+  "child_ticket": 0,
+  "city_id": "643861cdc48f26b203c925ed",
+  "closing_time": 1700,
+  "description": "Ulster Museum is Northern Ireland’s treasure house of the past and present. Home to rich collections of art, history and natural sciences all set within the beautiful surroundings of Belfast’s Botanic Gardens. Come face-to-face with dinosaurs, meteorites, Spanish sailors and Egyptian mummies. Discover new perspectives about Ancient Ireland, inclusive global histories, the Troubles, and whatever the future may hold.",
+  "family_ticket": 0,
+  "geometry": {
+    "coordinates": [
+      -5.935902207348568,
+      54.58246065924957
+    ],
+    "type": "Point"
+  },
+  "imgUrl": "https://res.cloudinary.com/dqeszgo28/image/upload/v1681224710/belfast_musuem_rs3ck6.jpg",
+  "last_entry": 1630,
+  "opening_time": 1000,
+  "place": "Ulster Museum",
+  "post_code": "BT9 5AB",
+  "restaurant": "cafe",
+  "visit_duration": 120
+},{
+  "_id": {
+    "$oid": "6437e897c48f26b203c925b4"
+  },
+  "address": "53-55 Crumlin Road",
+  "adult_ticket": 1250,
+  "category": "Attraction",
+  "child_ticket": 800,
+  "city_id": "643861cdc48f26b203c925ed",
+  "closing_time": 1730,
+  "description": "Discover over 150 years of history in Northern Irelands only remaining Victorian era prison.",
+  "family_ticket": 4000,
+  "geometry": {
+    "coordinates": [
+      -5.942364901182766,
+      54.60913607558494
+    ],
+    "type": "Point"
+  },
+  "imgUrl": "https://res.cloudinary.com/dqeszgo28/image/upload/v1681230074/Crumlin_Road_Goal_efvn2x.jpg",
+  "last_entry": 1500,
+  "opening_time": 1030,
+  "place": "Crumlin Road Gaol",
+  "post_code": "BT14 6ST",
+  "restaurant": "Restaurant ",
+  "visit_duration": 90
+},{
+  "_id": {
+    "$oid": "6437e897c48f26b203c925b3"
+  },
+  "address": "1 Olympic Way ",
+  "adult_ticket": 2495,
+  "category": "Museum",
+  "child_ticket": 1100,
+  "city_id": "643861cdc48f26b203c925ed",
+  "closing_time": 1900,
+  "description": "The Titanic Experience is the world’s most authentic retelling of the iconic story.\n",
+  "family_ticket": 6200,
+  "geometry": {
+    "coordinates": [
+      -5.910204338463489,
+      54.60816853148551
+    ],
+    "type": "Point"
+  },
+  "imgUrl": "https://res.cloudinary.com/dqeszgo28/image/upload/v1681224711/titanic_centre_j5ioab.jpg",
+  "last_entry": 1720,
+  "opening_time": 900,
+  "place": "Titanic Museum",
+  "post_code": "BT3 9EP",
+  "restaurant": "Restaurant and Cafe",
+  "visit_duration": 120
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925c1"
+  },
+  "place": "Liberty London",
+  "category": "Shop",
+  "description": "Tudor-revival building filled with high-end fashion and luxury homeware, with its own fabric line.",
+  "address": "Regent St., Carnaby",
+  "post_code": "W1B 5AH",
+  "opening_time": 1000,
+  "closing_time": 2000,
+  "last_entry": 1955,
+  "family_ticket": 0,
+  "adult_ticket": 0,
+  "child_ticket": 0,
+  "visit_duration": 30,
+  "restaurant": "café",
+  "imgUrl": "../img/libertyLondon.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.139980436,
+      51.51423892
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925ce"
+  },
+  "place": "St Paul's Cathedral",
+  "category": "Heritage",
+  "description": "St Paul's, with its world-famous dome, is an iconic feature of the London skyline. We welcome visitors to worship, to sightsee and to attend a dynamic programme of events – from orchestral performances to thought-provoking panel discussions.",
+  "post_code": "EC4M 8AD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -0.0979295,
+      51.513379
+    ]
+  },
+  "opening_time": 830,
+  "closing_time": 1600,
+  "last_entry": 1600,
+  "adult_ticket": 0,
+  "child_ticket": 0,
+  "visit_duration": 60,
+  "imgUrl": "https://res.cloudinary.com/dqeszgo28/image/upload/v1676570291/images/st_pauls_npasrx.jpg",
+  "restaurant": "not available",
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925be"
+  },
+  "place": "Imperial War Museum",
+  "category": "Museum",
+  "description": "Imperial War Museum is the world’s leading museum of war and conflict. Founded while the First World War was still raging, it gives voice to the extraordinary experiences of ordinary people forced to live their lives in a world torn apart by conflict.",
+  "post_code": "SE1 6HZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -0.110283,
+      51.4967533
+    ]
+  },
+  "opening_time": 1000,
+  "closing_time": 1800,
+  "last_entry": 1730,
+  "adult_ticket": 0,
+  "child_ticket": 0,
+  "visit_duration": 90,
+  "imgUrl": "https://res.cloudinary.com/dqeszgo28/image/upload/v1676409934/images/imperial_war_musuem_thwj3d.jpg",
+  "restaurant": "Restaurant and Cafe",
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925bf"
+  },
+  "place": "Buckingham Palace Tour",
+  "category": "Royal residence",
+  "description": "Buckingham Palace is a grand royal residence with 775 magnificent rooms",
+  "address": "Buckingham Gate",
+  "post_code": "SW1A 1AA",
+  "opening_time": 930,
+  "closing_time": 1715,
+  "last_entry": 1630,
+  "family_ticket": 0,
+  "adult_ticket": 3000,
+  "child_ticket": 1650,
+  "visit_duration": 120,
+  "restaurant": "not available",
+  "imgUrl": "../img/buckingham.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.140634,
+      51.50148
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925c6"
+  },
+  "place": "Disney Store",
+  "category": "Shop",
+  "description": "Disney retail chain featuring official character toys, clothes, collectibles & more.",
+  "address": "350-352 Oxford St",
+  "post_code": "W1C 1JH",
+  "opening_time": 900,
+  "closing_time": 2200,
+  "last_entry": 2155,
+  "family_ticket": 0,
+  "adult_ticket": 0,
+  "child_ticket": 0,
+  "visit_duration": 30,
+  "restaurant": "not available",
+  "imgUrl": "../img/disneyStore.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.148432131,
+      51.51489914
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925c3"
+  },
+  "place": "Madame Tussauds",
+  "category": "Attraction",
+  "description": "Opened in London in 1884, Madame Tussauds Museum displays worldwide celebrities made out of wax, making it the most famous wax museum due to its quality and innovation.",
+  "address": "Marylebone Road",
+  "post_code": "NW15LR",
+  "opening_time": 1000,
+  "closing_time": 1800,
+  "last_entry": 1500,
+  "family_ticket": 0,
+  "adult_ticket": 3350,
+  "child_ticket": 3000,
+  "visit_duration": 120,
+  "restaurant": "café",
+  "imgUrl": "../img/tussauds.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.15435,
+      51.52309
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925c7"
+  },
+  "place": "ArcelorMittal Orbit",
+  "category": "Theme Park",
+  "description": "The ArcelorMittal Orbit is a 114.5 metre tall steel structure built in the middle of the Olympic Park. It consists of a 178m long slide winding down with 12 twists and turns.",
+  "address": "Queen Elizabeth Olympic Park, Stratford",
+  "post_code": "E20 2AD",
+  "opening_time": 1200,
+  "closing_time": 1700,
+  "last_entry": 1630,
+  "family_ticket": 0,
+  "adult_ticket": 1675,
+  "child_ticket": 1075,
+  "visit_duration": 60,
+  "restaurant": "café",
+  "imgUrl": "../img/orbitmain.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.01289,
+      51.53842
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925d0"
+  },
+  "place": "Smithfield Market",
+  "category": "Shop",
+  "description": "Historic weekday market with stalls selling meats, poultry & provisions such as oils & cheese.",
+  "address": "Grand Ave, London ",
+  "post_code": "EC1A 9PS",
+  "opening_time": 2400,
+  "closing_time": 700,
+  "last_entry": 1830,
+  "family_ticket": 0,
+  "adult_ticket": 0,
+  "child_ticket": 0,
+  "visit_duration": 60,
+  "restaurant": "none",
+  "imgUrl": "../img/smithfieldMarket.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.10136078465793241,
+      51.52012380375762
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "645947dfad26ec3af2ea56d4"
+  },
+  "address": "Champ de Mars, 5 Av Anatole France 75007",
+  "adult_ticket": 2830,
+  "category": "Attraction",
+  "child_ticket": 710,
+  "closing_time": 2400,
+  "description": "The Eiffel Tower is a wrought-iron lattice tower. It is named after Gustave Eiffel, whose company designed and constructed the tower from 1887 to 1889.",
+  "geometry": {
+    "coordinates": [
+      2.30006,
+      48.85768
+    ],
+    "type": "Point"
+  },
+  "imgUrl": "https://res.cloudinary.com/dqeszgo28/image/upload/v1681505575/eiffel_Tower_qebyog.jpg",
+  "last_entry": 2300,
+  "opening_time": 930,
+  "place": "Eiffel Tower",
+  "restaurant": "Restaurant and Cafe",
+  "visit_duration": 120,
+  "city_id": "643861cdc48f26b203c925ef"
+},{
+  "_id": {
+    "$oid": "645947dfad26ec3af2ea56d5"
+  },
+  "address": "Rue de Rivoli 75001",
+  "adult_ticket": 1700,
+  "category": "Museum",
+  "child_ticket": 0,
+  "closing_time": 1800,
+  "description": "Explore the former palace of the kings of France, now the largest museum in the world.",
+  "geometry": {
+    "coordinates": [
+      2.3379873209232276,
+      48.86140161692504
+    ],
+    "type": "Point"
+  },
+  "imgUrl": "https://res.cloudinary.com/dqeszgo28/image/upload/v1683572091/Louvre_afpnwi.jpg",
+  "last_entry": 1730,
+  "opening_time": 900,
+  "place": "Louvre",
+  "restaurant": "Restaurant and Cafe",
+  "visit_duration": 120,
+  "city_id": "643861cdc48f26b203c925ef"
+},{
+  "_id": {
+    "$oid": "645947dfad26ec3af2ea56d7"
+  },
+  "address": "6 Parvis Notre Dame, Place Jean-Paul II 75004",
+  "category": "Heritage",
+  "description": "Notre Dame is a medieval Catholic cathedral on the Ile de la Cite. It is considered one of the finest examples of French Gothic architecture.",
+  "geometry": {
+    "coordinates": [
+      2.349719023787031,
+      48.854275704402916
+    ],
+    "type": "Point"
+  },
+  "imgUrl": "https://res.cloudinary.com/dqeszgo28/image/upload/v1683572091/Notte_Dame_Cathedral_oghebn.jpg",
+  "place": "Notte Dame Cathedral",
+  "last_entry": 1845,
+  "opening_time": 800,
+  "closing_time": 1845,
+  "visit_duration": 60,
+  "adult_ticket": 0,
+  "child_ticket": 0,
+  "city_id": "643861cdc48f26b203c925ef"
+},{
+  "_id": {
+    "$oid": "645947dfad26ec3af2ea56d8"
+  },
+  "address": "Esplanade Valero Giscard d'Estaing 75007",
+  "adult_ticket": 1600,
+  "category": "Museum",
+  "child_ticket": 0,
+  "closing_time": 1800,
+  "description": "Musee d'Orsay is housed in the former Gare d'Orsay, a Beaux-Arts railway station built between 1898 and 1900.",
+  "family_ticket": 2600,
+  "geometry": {
+    "coordinates": [
+      2.3266043011314297,
+      48.86010952632357
+    ],
+    "type": "Point"
+  },
+  "imgUrl": "https://res.cloudinary.com/dqeszgo28/image/upload/v1683572091/MuseedOrsay_achrwq.jpg",
+  "opening_time": 930,
+  "place": "Musee d'Orsay",
+  "restaurant": "Restaurant and Cafe",
+  "visit_duration": 90,
+  "last_entry": 1730,
+  "city_id": "643861cdc48f26b203c925ef"
+},{
+  "_id": {
+    "$oid": "6437e897c48f26b203c925b7"
+  },
+  "address": "Upper Newtownards Road",
+  "adult_ticket": 0,
+  "category": "Heritage",
+  "child_ticket": 0,
+  "city_id": "643861cdc48f26b203c925ed",
+  "closing_time": 2000,
+  "description": "On Stormont Estate there are beautiful gardens, a variety of walks,adventure trails, a children's playground, picnic areas, historic buildings and monuments.",
+  "family_ticket": 0,
+  "geometry": {
+    "coordinates": [
+      -5.84058588583981,
+      54.59516007970614
+    ],
+    "type": "Point"
+  },
+  "imgUrl": "https://res.cloudinary.com/dqeszgo28/image/upload/v1681224710/stormont_qxzx5y.jpg",
+  "last_entry": 1930,
+  "opening_time": 900,
+  "place": "Stormont Estate",
+  "post_code": "BT4 3SH",
+  "restaurant": "not available",
+  "visit_duration": 120
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925d1"
+  },
+  "place": "The National Gallery",
+  "category": "Museum",
+  "description": "The National Gallery is an iconic art museum located just moments away from the hotel in Trafalgar Square.  It's free to visit and is a must-see if you have never visited before.",
+  "address": "Trafalgar Square",
+  "post_code": "WC2N 5DN",
+  "opening_time": 1000,
+  "closing_time": 1800,
+  "last_entry": 1730,
+  "family_ticket": 0,
+  "adult_ticket": 0,
+  "child_ticket": 0,
+  "visit_duration": 30,
+  "restaurant": "café",
+  "imgUrl": "../img/nationalGallery.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.12826,
+      51.50906
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925c9"
+  },
+  "place": "The British Museum",
+  "category": "Museum",
+  "description": "About The British Museum\nHuge showcase for global antiquities, including Egyptian mummies and ancient Greek sculptures.",
+  "address": "Great Russell St",
+  "post_code": "WC1B 3DG",
+  "opening_time": 1000,
+  "closing_time": 1700,
+  "last_entry": 1600,
+  "family_ticket": 0,
+  "adult_ticket": 0,
+  "child_ticket": 0,
+  "visit_duration": 120,
+  "restaurant": "café",
+  "imgUrl": "../img/britishMuseum.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.126892228,
+      51.51972707
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925cc"
+  },
+  "place": "Warner Studio Tour",
+  "category": "Attraction",
+  "description": "The Harry Potter film series made Leavesden its home for more than ten years. As the books were still being released while the films were being made, the production crew saved many of the iconic sets, props and costumes that were created especially for the films – just in case they were ever needed later on in the series.",
+  "address": "Studio Tour Drive, Leavesden",
+  "post_code": "WD25 7LR",
+  "geometry": {
+    "coordinates": [
+      -0.41803199724855256,
+      51.694801809758204
+    ]
+  },
+  "opening_time": 830,
+  "closing_time": 2200,
+  "last_entry": 1830,
+  "adult_ticket": 5150,
+  "child_ticket": 4000,
+  "visit_duration": 60,
+  "imgUrl": "https://res.cloudinary.com/dqeszgo28/image/upload/v1676067220/images/warner_studio_nfmzp7.jpg",
+  "restaurant": "Restaurant and Cafe",
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925d2"
+  },
+  "place": "Kensington Palace",
+  "category": "Royal residence",
+  "description": "Kensington Palace has been a famous royal residence for over 300 years. Known as Queen Victoria's birthplace, the palace has been home to many royal families and is a must-see destination for those who would like to be closer to the history of this landmark residence and grounds.",
+  "post_code": "W8 4PX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -0.1877,
+      51.505
+    ]
+  },
+  "opening_time": 1000,
+  "closing_time": 1800,
+  "last_entry": 1700,
+  "adult_ticket": 2540,
+  "child_ticket": 1270,
+  "visit_duration": 90,
+  "imgUrl": "https://res.cloudinary.com/dqeszgo28/image/upload/v1676624076/images/kensington_palace_juskxx.jpg",
+  "restaurant": "Restaurant and Cafe",
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925d4"
+  },
+  "place": "Tate Britain",
+  "category": "Art Gallery",
+  "description": "Imposing gallery with historic and contemporary British art, notable for its JMW Turner collection.",
+  "address": "Millbank",
+  "post_code": "SW1P 4RG",
+  "opening_time": 1000,
+  "closing_time": 1800,
+  "last_entry": 1730,
+  "family_ticket": 0,
+  "adult_ticket": 0,
+  "child_ticket": 0,
+  "visit_duration": 120,
+  "restaurant": "café",
+  "imgUrl": "../img/tateBritain.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.127496232,
+      51.4918626
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925b9"
+  },
+  "place": "Natural History Museum",
+  "category": "Museum",
+  "description": "A world-famous museum promotes the discovery and enjoyment of the natural world through such exciting exhibits as the Life and Earth Galleries, wildlife garden and geological collections.",
+  "address": "Cromwell Rd",
+  "post_code": "SW7 5BD",
+  "opening_time": 1000,
+  "closing_time": 1750,
+  "last_entry": 1730,
+  "family_ticket": 0,
+  "adult_ticket": 0,
+  "child_ticket": 0,
+  "visit_duration": 180,
+  "restaurant": "café",
+  "imgUrl": "../img/naturalhistory.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.17617,
+      51.49676
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925c8"
+  },
+  "place": "Harrods",
+  "category": "Shop",
+  "description": "Distinguished store for luxury goods, fashion, technology & accessories, plus refined eateries.",
+  "address": "87-135 Brompton Rd",
+  "post_code": "SW1X 7XL",
+  "opening_time": 1000,
+  "closing_time": 2100,
+  "last_entry": 2100,
+  "family_ticket": 0,
+  "adult_ticket": 0,
+  "child_ticket": 0,
+  "visit_duration": 60,
+  "restaurant": "café",
+  "imgUrl": "../img/harrods.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.163097186,
+      51.50055426
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925ca"
+  },
+  "place": "Churchill War Rooms",
+  "category": "Museum",
+  "description": "Walk the top-secret corridors of Churchill War Rooms and glimpse what life would have been like during the tense days and nights of the Second World War.",
+  "address": "King Charles Street, London",
+  "post_code": "SW1A 2AQ",
+  "opening_time": 930,
+  "closing_time": 1800,
+  "last_entry": 1700,
+  "family_ticket": 0,
+  "adult_ticket": 2635,
+  "child_ticket": 1315,
+  "visit_duration": 150,
+  "restaurant": "not available",
+  "imgUrl": "../img/ChurchillWarRooms.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.1293,
+      51.50227
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925d3"
+  },
+  "place": "Tate Modern",
+  "category": "Art Gallery",
+  "description": "Modern-art gallery with international works on display, plus a cafe with panoramic river views.",
+  "address": "Bankside",
+  "post_code": "SE1 9TG",
+  "opening_time": 1000,
+  "closing_time": 1800,
+  "last_entry": 1730,
+  "adult_ticket": 0,
+  "child_ticket": 0,
+  "visit_duration": 120,
+  "restaurant": "café",
+  "imgUrl": "../img/tateModern.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.099227656,
+      51.508223
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "6437e8a2c48f26b203c925ba"
+  },
+  "place": "Tower of London",
+  "category": "Monument",
+  "description": "The Tower of London is an internationally famous monument and one of England's most iconic structures",
+  "address": "London",
+  "post_code": "EC3N 4AB",
+  "opening_time": 900,
+  "closing_time": 1730,
+  "last_entry": 1630,
+  "family_ticket": 0,
+  "adult_ticket": 2990,
+  "child_ticket": 1490,
+  "visit_duration": 120,
+  "restaurant": "café",
+  "imgUrl": "../img/toweroflondon.jpg",
+  "geometry": {
+    "coordinates": [
+      -0.075949,
+      51.508112
+    ],
+    "type": "Point"
+  },
+  "city_id": "643861cdc48f26b203c925ee"
+},{
+  "_id": {
+    "$oid": "645947dfad26ec3af2ea56d9"
+  },
+  "address": "35 Rue de Chevalier de la Barre 75018",
+  "adult_ticket": 0,
+  "category": "Monument ",
+  "child_ticket": 0,
+  "closing_time": 2230,
+  "description": "Sacre-Coeur is a Roman Catholic Church and minor basilica. It was consecrated in 1919 after World War I.",
+  "geometry": {
+    "coordinates": [
+      2.343125755508212,
+      48.886803337576886
+    ],
+    "type": "Point"
+  },
+  "imgUrl": "https://res.cloudinary.com/dqeszgo28/image/upload/v1683572091/Sacre_Coeur_t0olyq.jpg",
+  "opening_time": 630,
+  "place": "Sacre Coeur ",
+  "visit_duration": 60,
+  "last_entry": 1700,
+  "city_id": "643861cdc48f26b203c925ef"
+},{
+  "_id": {
+    "$oid": "645947dfad26ec3af2ea56da"
+  },
+  "address": "Place de la Concorde 75001",
+  "adult_ticket": 0,
+  "category": "Attraction ",
+  "child_ticket": 0,
+  "closing_time": 2100,
+  "description": "The Tuileries Gardens are a pleasant place for walking and culture. The gardens two ponds are perfect places to relax by.",
+  "geometry": {
+    "coordinates": [
+      2.3281725267872275,
+      48.86363388139224
+    ],
+    "type": "Point"
+  },
+  "imgUrl": "https://res.cloudinary.com/dqeszgo28/image/upload/v1683572090/Tuileries_Gardens_nitnlu.jpg",
+  "last_entry": 2030,
+  "opening_time": 700,
+  "place": "Tuileries Gardens",
+  "restaurant": "Restaurant ",
+  "visit_duration": 60,
+  "city_id": "643861cdc48f26b203c925ef"
+}]

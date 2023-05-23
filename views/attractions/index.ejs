@@ -1,0 +1,126 @@
+<% layout('/layouts/boilerplate')%>
+<script>
+  const mapBoxToken = '<%-process.env.MAPBOX_TOKEN%>';
+</script>
+<% if(currentUser){%>
+
+<div id="map"></div>
+<div id="instructions"></div>
+
+<div id="geocodes" class="geocodes"></div>
+<pre id="result"></pre>
+
+<div>
+  <button id="get-directions-btn">Get Directions</button>
+</div>
+
+<% if (journeyDetails) { %>
+    <div id="journey-details">
+      <p>Arrival time: <%= journeyDetails.arrivalTime %></p>
+      <p>Total cost: <%= journeyDetails.totalCost %></p>
+      <p>Departure point: <%= journeyDetails.departPoint %></p>
+      <p>Arrival point: <%= journeyDetails.arrivalPoint %></p>
+      <p>Departure time: <%= journeyDetails.departTime %></p>
+      <p>Journey duration: <%= journeyDetails.journeyDuration %></p>
+</div>
+<% } %>
+
+<div class="city-input-container text-center">
+  <div class="row justify-content-around">
+    <div class="col-lg-6 col-md-8 col-sm-12">
+      <form id="form-id" method="POST">
+        <label for="cit"><h5>Enter a City</h5></label>
+        <input type="text" name="cit" id="cit" required />
+        <button type="submit" class="btn-city-search">Zoom to city</button>
+      </form>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-12">
+      <button id="reset-map-btn" class="btn-city-search">Reset Map View</button>
+    </div>
+  </div>
+</div>
+
+
+<!--Links to available cities-->
+<div class="cities-container">
+  <% cities.slice(0, 3).forEach(city => { %>
+    <div class="city-card-container">
+      <div class="city-card">
+        <img src="<%= city.imgUrl %>" alt="<%= city.city %>" class="city-card-img">
+        <div class="city-card-content">
+          <h3 class="city-card-title"><%= city.city %></h3>
+          <p class="city-card-description"><%= city.description %></p>
+          <a href="/attractions?city=<%= encodeURIComponent(city.city) %>" class="city-card-link">View <%= city.city %> attractions</a>
+        </div>
+      </div>
+    </div>
+  <% }); %>
+</div>
+
+<h1>Attractions</h1>
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+<% for (let attractions of showCity){%>
+  <div class="card-group gap-1"> 
+  <div class="col">
+    <div class="card h-100 shadow  mb-5 bg-white rounded">
+      
+      <div class="card-body d-flex flex-column">
+        <img src=<%= attractions.imgUrl %> class="card-img-top img-fluid w-xl-100 w-lg-100 w-md-100 w-sm-100 w-xs-100 w-100 text-center" alt="...">
+        <h5 class="card-title"><%= attractions.place %></h5>
+        <p class="card-text"><%= attractions.description %></p>
+        <%=console.log('is open:', attractions.isOpen)%>
+        <% if (attractions.isOpen) { %>
+          <div class="d-flex justify-content-center">
+            <p class="align-self-end btn btn-success d-inline-block w-100" style="cursor: default;">Open Now!</p>
+          </div>
+        <% } else { %>
+          <div class="d-flex justify-content-center">
+            <p class="align-self-end btn btn-danger d-inline-block w-100">Closed</p>
+          </div>
+        <% } %>
+        <div class="d-flex justify-content-center">
+          <a class="align-self-end btn btn-primary w-100" style="margin-top: auto;" href="/attractions/<%=attractions.city_id%>/<%=attractions._id %>">
+            View <%=attractions.place%>
+          </a>
+        </div>
+        </div>
+    </div>
+</div>
+  </div>
+  <% }%>
+
+
+<% } else{%>
+  
+  
+      <div class="row justify-content-center align-items-center mh-100">
+      <div class="col-xl-6 col-md-offset-4 border border-info border-2 shadow mb-5 p-4 bg-body rounded" style="height: 30vh; width:80%;">
+      <p>You have to be logged in to view this page.</p>
+      <a href="/login?returnTo=/attractions">Login</a>
+</div>
+
+
+
+</div>
+<% } %>
+
+<script type='text/javascript'>
+  const attraction = {features: <%- JSON.stringify(attractions) %>}
+  const showCity = <%- JSON.stringify(showCity)%>
+  const currentTime = '<%= currentTime %>';
+  let journeyDetails = <%- JSON.stringify(journeyDetails || null) %>;
+  console.log ('Journey details:',journeyDetails) 
+  //   initMap(journeyDetails);
+  // }
+</script>
+ 
+ <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<script src="/javascripts/showMapCopy.js"></script> 
+
+
+
+
+
+
+

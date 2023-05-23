@@ -1,0 +1,40 @@
+<% layout('/layouts/boilerplate')%>
+<div class="register-container">
+    <div class="col-xxl-6 ">
+        <div class="card-body rounded-3 shadow p-3">
+                <h4 class="card-title text-center">Sign up</h4>
+                <form action="/register" method="POST" class="validated-form" novalidate>
+                    <div class="form-floating mb-3">
+                        <input class="form-control" type="email" id="floatingInput" name="email"
+                            placeholder="name@example.com" required>
+                        <label class="form-label" for="floatingInput">Email</label>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Please enter a valid username.
+                        </div>
+                    </div>
+                    <div class="form-floating">
+                        <input class="form-control" type="password" id="floatingPassword" name="password"
+                            placeholder="Password" required autocomplete="on">
+                        <label class="form-label" for="floatingPassword">Password</label>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Please enter a valid password.
+                        </div>
+                    </div>
+                    <div class="d-grid mt-3 col-md-12 mx-auto text-center">
+                        <button class="btn btn-info">Sign up</button>
+                    </div>
+                    <div class="d-grid mt-3 col-md-12 mx-auto text-center">
+                        <p>Already have an account? Log in<a href="/login" class="link-info"> here</a></p>
+                    </div>
+                </form>
+            
+        </div>
+    </div>
+   
+</div>

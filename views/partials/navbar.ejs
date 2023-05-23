@@ -1,0 +1,70 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/attractions/">City Tripper</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" href="/attractions/">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <div class="d-flex flex-wrap align-items-center">
+            <form action="/attractions/category" method="GET" class="d-flex" id="navbarDropdown" aria-expanded="false">
+              <label for="city" class="me-2">Select a city:</label>
+              <select name="city" id="city">
+                <option value="Belfast">Belfast</option>
+                <option value="London">London</option>
+                <option value="Paris">Paris</option>
+
+              </select>
+              <label for="category" class="mx-2">Select a category:</label>
+              <select name="category" id="category">
+                <option value="Attraction">Attractions</option>
+                <option value="Heritage">Heritage</option>
+                <option value="Monument">Monuments</option>
+                <option value="Museum">Museums</option>
+                <option value="Royal residence">Royal residences</option>
+                <option value="Theme Park">Theme Parks</option>
+                <option value="Zoo and Wildlife">Zoos and Wildlife</option>
+                <option value="Shop">Shops</option>
+                <option value="Art Gallery">Art Gallery</option>
+              </select>
+            </form>
+        <li class="d-flex">
+          <button type="submit" form="navbarDropdown" class="btn btn-primary">Search</button>
+        </li>
+    </li>
+    
+
+    <li class="nav-item">
+      <a class="nav-link" href="/itinerary">Itinerary</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/attractions/new">Add a place</a>
+    </li>
+    <li class="nav-item">
+
+    </li>
+    </ul>
+    <span class="navbar-text">
+
+      <div class="navbar-nav ml-auto">
+        <% if(!currentUser){%>
+          <a class="nav-link" href="/login">Log in</a>
+          <a class="nav-link" href="/register">Sign up</a>
+          <%} else {%>
+
+            <a class="nav-link" href="/logout">Log out</a>
+            <%}%>
+              <p>
+                <%= dayjs().format("ddd D MMM HH:mm")%>
+              </p>
+      </div>
+
+  </div>
+
+</nav>
